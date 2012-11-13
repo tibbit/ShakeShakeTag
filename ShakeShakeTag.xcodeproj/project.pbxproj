@@ -16,6 +16,12 @@
 		DEF11C071652B35800522F60 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF11C061652B35800522F60 /* Default.png */; };
 		DEF11C091652B35800522F60 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF11C081652B35800522F60 /* Default@2x.png */; };
 		DEF11C0B1652B35800522F60 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF11C0A1652B35800522F60 /* Default-568h@2x.png */; };
+		DEF11C131652B4D800522F60 /* SSTShakePadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF11C121652B4D800522F60 /* SSTShakePadViewController.m */; };
+		DEF11C161652B4EF00522F60 /* SSTShakePhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF11C151652B4EF00522F60 /* SSTShakePhoneViewController.m */; };
+		DEF11C1A1652B52800522F60 /* SSTLoginPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF11C191652B52800522F60 /* SSTLoginPadViewController.m */; };
+		DEF11C1D1652B54300522F60 /* SSTLoginPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF11C1C1652B54300522F60 /* SSTLoginPhoneViewController.m */; };
+		DEF11C211652B58900522F60 /* Pad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF11C201652B58900522F60 /* Pad.storyboard */; };
+		DEF11C231652B5A000522F60 /* Phone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF11C221652B5A000522F60 /* Phone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,16 @@
 		DEF11C061652B35800522F60 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		DEF11C081652B35800522F60 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		DEF11C0A1652B35800522F60 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DEF11C111652B4D800522F60 /* SSTShakePadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSTShakePadViewController.h; path = Interfaces/SSTShakePadViewController.h; sourceTree = "<group>"; };
+		DEF11C121652B4D800522F60 /* SSTShakePadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSTShakePadViewController.m; path = Interfaces/SSTShakePadViewController.m; sourceTree = "<group>"; };
+		DEF11C141652B4EF00522F60 /* SSTShakePhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSTShakePhoneViewController.h; path = Interfaces/SSTShakePhoneViewController.h; sourceTree = "<group>"; };
+		DEF11C151652B4EF00522F60 /* SSTShakePhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSTShakePhoneViewController.m; path = Interfaces/SSTShakePhoneViewController.m; sourceTree = "<group>"; };
+		DEF11C181652B52800522F60 /* SSTLoginPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSTLoginPadViewController.h; path = Interfaces/SSTLoginPadViewController.h; sourceTree = "<group>"; };
+		DEF11C191652B52800522F60 /* SSTLoginPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSTLoginPadViewController.m; path = Interfaces/SSTLoginPadViewController.m; sourceTree = "<group>"; };
+		DEF11C1B1652B54300522F60 /* SSTLoginPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSTLoginPhoneViewController.h; path = Interfaces/SSTLoginPhoneViewController.h; sourceTree = "<group>"; };
+		DEF11C1C1652B54300522F60 /* SSTLoginPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSTLoginPhoneViewController.m; path = Interfaces/SSTLoginPhoneViewController.m; sourceTree = "<group>"; };
+		DEF11C201652B58900522F60 /* Pad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Pad.storyboard; path = Storyboard/Pad.storyboard; sourceTree = "<group>"; };
+		DEF11C221652B5A000522F60 /* Phone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Phone.storyboard; path = Storyboard/Phone.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +96,9 @@
 			children = (
 				DEF11C031652B35800522F60 /* SSTAppDelegate.h */,
 				DEF11C041652B35800522F60 /* SSTAppDelegate.m */,
+				DEF11C171652B50800522F60 /* ShakeViewController */,
+				DEF11C1E1652B54B00522F60 /* LoginViewController */,
+				DEF11C1F1652B56100522F60 /* UI */,
 				DEF11BFB1652B35800522F60 /* Supporting Files */,
 			);
 			path = ShakeShakeTag;
@@ -97,6 +116,37 @@
 				DEF11C0A1652B35800522F60 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEF11C171652B50800522F60 /* ShakeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DEF11C111652B4D800522F60 /* SSTShakePadViewController.h */,
+				DEF11C121652B4D800522F60 /* SSTShakePadViewController.m */,
+				DEF11C141652B4EF00522F60 /* SSTShakePhoneViewController.h */,
+				DEF11C151652B4EF00522F60 /* SSTShakePhoneViewController.m */,
+			);
+			name = ShakeViewController;
+			sourceTree = "<group>";
+		};
+		DEF11C1E1652B54B00522F60 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DEF11C181652B52800522F60 /* SSTLoginPadViewController.h */,
+				DEF11C191652B52800522F60 /* SSTLoginPadViewController.m */,
+				DEF11C1B1652B54300522F60 /* SSTLoginPhoneViewController.h */,
+				DEF11C1C1652B54300522F60 /* SSTLoginPhoneViewController.m */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+		DEF11C1F1652B56100522F60 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DEF11C201652B58900522F60 /* Pad.storyboard */,
+				DEF11C221652B5A000522F60 /* Phone.storyboard */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +205,8 @@
 				DEF11C071652B35800522F60 /* Default.png in Resources */,
 				DEF11C091652B35800522F60 /* Default@2x.png in Resources */,
 				DEF11C0B1652B35800522F60 /* Default-568h@2x.png in Resources */,
+				DEF11C211652B58900522F60 /* Pad.storyboard in Resources */,
+				DEF11C231652B5A000522F60 /* Phone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +219,10 @@
 			files = (
 				DEF11C011652B35800522F60 /* main.m in Sources */,
 				DEF11C051652B35800522F60 /* SSTAppDelegate.m in Sources */,
+				DEF11C131652B4D800522F60 /* SSTShakePadViewController.m in Sources */,
+				DEF11C161652B4EF00522F60 /* SSTShakePhoneViewController.m in Sources */,
+				DEF11C1A1652B52800522F60 /* SSTLoginPadViewController.m in Sources */,
+				DEF11C1D1652B54300522F60 /* SSTLoginPhoneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
