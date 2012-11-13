@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEF11BF51652B35800522F60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF11BF41652B35800522F60 /* UIKit.framework */; };
+		DEF11BF71652B35800522F60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF11BF61652B35800522F60 /* Foundation.framework */; };
+		DEF11BF91652B35800522F60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF11BF81652B35800522F60 /* CoreGraphics.framework */; };
+		DEF11BFF1652B35800522F60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEF11BFD1652B35800522F60 /* InfoPlist.strings */; };
+		DEF11C011652B35800522F60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF11C001652B35800522F60 /* main.m */; };
+		DEF11C051652B35800522F60 /* SSTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF11C041652B35800522F60 /* SSTAppDelegate.m */; };
+		DEF11C071652B35800522F60 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF11C061652B35800522F60 /* Default.png */; };
+		DEF11C091652B35800522F60 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF11C081652B35800522F60 /* Default@2x.png */; };
+		DEF11C0B1652B35800522F60 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF11C0A1652B35800522F60 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DEF11BF01652B35800522F60 /* ShakeShakeTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeShakeTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF11BF41652B35800522F60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DEF11BF61652B35800522F60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DEF11BF81652B35800522F60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DEF11BFC1652B35800522F60 /* ShakeShakeTag-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShakeShakeTag-Info.plist"; sourceTree = "<group>"; };
+		DEF11BFE1652B35800522F60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEF11C001652B35800522F60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEF11C021652B35800522F60 /* ShakeShakeTag-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShakeShakeTag-Prefix.pch"; sourceTree = "<group>"; };
+		DEF11C031652B35800522F60 /* SSTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSTAppDelegate.h; sourceTree = "<group>"; };
+		DEF11C041652B35800522F60 /* SSTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSTAppDelegate.m; sourceTree = "<group>"; };
+		DEF11C061652B35800522F60 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DEF11C081652B35800522F60 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DEF11C0A1652B35800522F60 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEF11BED1652B35800522F60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF11BF51652B35800522F60 /* UIKit.framework in Frameworks */,
+				DEF11BF71652B35800522F60 /* Foundation.framework in Frameworks */,
+				DEF11BF91652B35800522F60 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEF11BE51652B35700522F60 = {
+			isa = PBXGroup;
+			children = (
+				DEF11BFA1652B35800522F60 /* ShakeShakeTag */,
+				DEF11BF31652B35800522F60 /* Frameworks */,
+				DEF11BF11652B35800522F60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEF11BF11652B35800522F60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEF11BF01652B35800522F60 /* ShakeShakeTag.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEF11BF31652B35800522F60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEF11BF41652B35800522F60 /* UIKit.framework */,
+				DEF11BF61652B35800522F60 /* Foundation.framework */,
+				DEF11BF81652B35800522F60 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEF11BFA1652B35800522F60 /* ShakeShakeTag */ = {
+			isa = PBXGroup;
+			children = (
+				DEF11C031652B35800522F60 /* SSTAppDelegate.h */,
+				DEF11C041652B35800522F60 /* SSTAppDelegate.m */,
+				DEF11BFB1652B35800522F60 /* Supporting Files */,
+			);
+			path = ShakeShakeTag;
+			sourceTree = "<group>";
+		};
+		DEF11BFB1652B35800522F60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEF11BFC1652B35800522F60 /* ShakeShakeTag-Info.plist */,
+				DEF11BFD1652B35800522F60 /* InfoPlist.strings */,
+				DEF11C001652B35800522F60 /* main.m */,
+				DEF11C021652B35800522F60 /* ShakeShakeTag-Prefix.pch */,
+				DEF11C061652B35800522F60 /* Default.png */,
+				DEF11C081652B35800522F60 /* Default@2x.png */,
+				DEF11C0A1652B35800522F60 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEF11BEF1652B35800522F60 /* ShakeShakeTag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF11C0E1652B35800522F60 /* Build configuration list for PBXNativeTarget "ShakeShakeTag" */;
+			buildPhases = (
+				DEF11BEC1652B35800522F60 /* Sources */,
+				DEF11BED1652B35800522F60 /* Frameworks */,
+				DEF11BEE1652B35800522F60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShakeShakeTag;
+			productName = ShakeShakeTag;
+			productReference = DEF11BF01652B35800522F60 /* ShakeShakeTag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEF11BE71652B35700522F60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SST;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = BIT;
+			};
+			buildConfigurationList = DEF11BEA1652B35800522F60 /* Build configuration list for PBXProject "ShakeShakeTag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DEF11BE51652B35700522F60;
+			productRefGroup = DEF11BF11652B35800522F60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEF11BEF1652B35800522F60 /* ShakeShakeTag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEF11BEE1652B35800522F60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF11BFF1652B35800522F60 /* InfoPlist.strings in Resources */,
+				DEF11C071652B35800522F60 /* Default.png in Resources */,
+				DEF11C091652B35800522F60 /* Default@2x.png in Resources */,
+				DEF11C0B1652B35800522F60 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEF11BEC1652B35800522F60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF11C011652B35800522F60 /* main.m in Sources */,
+				DEF11C051652B35800522F60 /* SSTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEF11BFD1652B35800522F60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEF11BFE1652B35800522F60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEF11C0C1652B35800522F60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEF11C0D1652B35800522F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEF11C0F1652B35800522F60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShakeShakeTag/ShakeShakeTag-Prefix.pch";
+				INFOPLIST_FILE = "ShakeShakeTag/ShakeShakeTag-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DEF11C101652B35800522F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShakeShakeTag/ShakeShakeTag-Prefix.pch";
+				INFOPLIST_FILE = "ShakeShakeTag/ShakeShakeTag-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEF11BEA1652B35800522F60 /* Build configuration list for PBXProject "ShakeShakeTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF11C0C1652B35800522F60 /* Debug */,
+				DEF11C0D1652B35800522F60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEF11C0E1652B35800522F60 /* Build configuration list for PBXNativeTarget "ShakeShakeTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF11C0F1652B35800522F60 /* Debug */,
+				DEF11C101652B35800522F60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEF11BE71652B35700522F60 /* Project object */;
+}
