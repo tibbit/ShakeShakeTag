@@ -1,0 +1,3 @@
+Algorithms
+->filtering
+->random picking
