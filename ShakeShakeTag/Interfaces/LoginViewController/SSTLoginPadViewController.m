@@ -7,6 +7,7 @@
 //
 
 #import "SSTLoginPadViewController.h"
+#import "SSTAppDelegate.h"
 
 @interface SSTLoginPadViewController ()
 
@@ -21,6 +22,12 @@
         // Custom initialization
     }
     return self;
+}
+
+- (IBAction)FBAuthButtonAction:(id)sender
+{
+    SSTAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    [appDelegate openSessionWithAllowLoginUI:YES];
 }
 
 - (void)viewDidLoad
