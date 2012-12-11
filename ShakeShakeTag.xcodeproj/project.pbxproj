@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE449CE916725685001BDEFD /* Storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE449CE616725685001BDEFD /* Storyboard */; };
-		DE449CEB167258C6001BDEFD /* Core in Resources */ = {isa = PBXBuildFile; fileRef = DE449CEA167258C6001BDEFD /* Core */; };
-		DE449CED167258ED001BDEFD /* Interfaces in Resources */ = {isa = PBXBuildFile; fileRef = DE449CEC167258ED001BDEFD /* Interfaces */; };
+		DE78838C16776ADA0007A164 /* SSTLoginPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78838416776ADA0007A164 /* SSTLoginPadViewController.m */; };
+		DE78838D16776ADA0007A164 /* SSTLoginPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78838616776ADA0007A164 /* SSTLoginPhoneViewController.m */; };
+		DE78838E16776ADA0007A164 /* SSTShakePadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78838916776ADA0007A164 /* SSTShakePadViewController.m */; };
+		DE78838F16776ADA0007A164 /* SSTShakePhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78838B16776ADA0007A164 /* SSTShakePhoneViewController.m */; };
+		DE78839316776AE70007A164 /* Pad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE78839116776AE70007A164 /* Pad.storyboard */; };
+		DE78839416776AE70007A164 /* Phone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE78839216776AE70007A164 /* Phone.storyboard */; };
+		DE8E51D2167709BC00946B27 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8E51D1167709BC00946B27 /* OpenGLES.framework */; };
+		DE8E51D7167714CC00946B27 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8E51D6167714CC00946B27 /* FacebookSDK.framework */; };
+		DE8E51D9167714F600946B27 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DE8E51D8167714F600946B27 /* FacebookSDKResources.bundle */; };
+		DE8E51DD1677153B00946B27 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8E51DA1677153B00946B27 /* Accounts.framework */; };
+		DE8E51DE1677153B00946B27 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8E51DB1677153B00946B27 /* AdSupport.framework */; };
+		DE8E51DF1677153B00946B27 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8E51DC1677153B00946B27 /* Social.framework */; };
 		DEF11BF51652B35800522F60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF11BF41652B35800522F60 /* UIKit.framework */; };
 		DEF11BF71652B35800522F60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF11BF61652B35800522F60 /* Foundation.framework */; };
 		DEF11BF91652B35800522F60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF11BF81652B35800522F60 /* CoreGraphics.framework */; };
@@ -22,9 +31,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DE449CE616725685001BDEFD /* Storyboard */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Storyboard; sourceTree = "<group>"; };
-		DE449CEA167258C6001BDEFD /* Core */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Core; sourceTree = "<group>"; };
-		DE449CEC167258ED001BDEFD /* Interfaces */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Interfaces; sourceTree = "<group>"; };
+		DE78838316776ADA0007A164 /* SSTLoginPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTLoginPadViewController.h; sourceTree = "<group>"; };
+		DE78838416776ADA0007A164 /* SSTLoginPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTLoginPadViewController.m; sourceTree = "<group>"; };
+		DE78838516776ADA0007A164 /* SSTLoginPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTLoginPhoneViewController.h; sourceTree = "<group>"; };
+		DE78838616776ADA0007A164 /* SSTLoginPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTLoginPhoneViewController.m; sourceTree = "<group>"; };
+		DE78838816776ADA0007A164 /* SSTShakePadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTShakePadViewController.h; sourceTree = "<group>"; };
+		DE78838916776ADA0007A164 /* SSTShakePadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTShakePadViewController.m; sourceTree = "<group>"; };
+		DE78838A16776ADA0007A164 /* SSTShakePhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTShakePhoneViewController.h; sourceTree = "<group>"; };
+		DE78838B16776ADA0007A164 /* SSTShakePhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTShakePhoneViewController.m; sourceTree = "<group>"; };
+		DE78839116776AE70007A164 /* Pad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Pad.storyboard; sourceTree = "<group>"; };
+		DE78839216776AE70007A164 /* Phone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Phone.storyboard; sourceTree = "<group>"; };
+		DE8E51D1167709BC00946B27 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DE8E51D6167714CC00946B27 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../FacebookSDK/build/FacebookSDK.framework; sourceTree = "<group>"; };
+		DE8E51D8167714F600946B27 /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKResources.bundle; path = ../../FacebookSDK/build/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		DE8E51DA1677153B00946B27 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		DE8E51DB1677153B00946B27 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		DE8E51DC1677153B00946B27 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		DEF11BF01652B35800522F60 /* ShakeShakeTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeShakeTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF11BF41652B35800522F60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DEF11BF61652B35800522F60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -45,15 +67,83 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE8E51DD1677153B00946B27 /* Accounts.framework in Frameworks */,
+				DE8E51DE1677153B00946B27 /* AdSupport.framework in Frameworks */,
+				DE8E51DF1677153B00946B27 /* Social.framework in Frameworks */,
+				DE8E51D2167709BC00946B27 /* OpenGLES.framework in Frameworks */,
 				DEF11BF51652B35800522F60 /* UIKit.framework in Frameworks */,
 				DEF11BF71652B35800522F60 /* Foundation.framework in Frameworks */,
 				DEF11BF91652B35800522F60 /* CoreGraphics.framework in Frameworks */,
+				DE8E51D7167714CC00946B27 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE78838116776ADA0007A164 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				DE78838216776ADA0007A164 /* LoginViewController */,
+				DE78838716776ADA0007A164 /* ShakeViewController */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		DE78838216776ADA0007A164 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE78838316776ADA0007A164 /* SSTLoginPadViewController.h */,
+				DE78838416776ADA0007A164 /* SSTLoginPadViewController.m */,
+				DE78838516776ADA0007A164 /* SSTLoginPhoneViewController.h */,
+				DE78838616776ADA0007A164 /* SSTLoginPhoneViewController.m */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		DE78838716776ADA0007A164 /* ShakeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE78838816776ADA0007A164 /* SSTShakePadViewController.h */,
+				DE78838916776ADA0007A164 /* SSTShakePadViewController.m */,
+				DE78838A16776ADA0007A164 /* SSTShakePhoneViewController.h */,
+				DE78838B16776ADA0007A164 /* SSTShakePhoneViewController.m */,
+			);
+			path = ShakeViewController;
+			sourceTree = "<group>";
+		};
+		DE78839016776AE70007A164 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DE78839116776AE70007A164 /* Pad.storyboard */,
+				DE78839216776AE70007A164 /* Phone.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		DE78839516776AF60007A164 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DE78839616776AF60007A164 /* Algorithm */,
+				DE78839816776AF60007A164 /* Database */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DE78839616776AF60007A164 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		DE78839816776AF60007A164 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
 		DEF11BE51652B35700522F60 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +164,12 @@
 		DEF11BF31652B35800522F60 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DE8E51DA1677153B00946B27 /* Accounts.framework */,
+				DE8E51DB1677153B00946B27 /* AdSupport.framework */,
+				DE8E51DC1677153B00946B27 /* Social.framework */,
+				DE8E51D8167714F600946B27 /* FacebookSDKResources.bundle */,
+				DE8E51D6167714CC00946B27 /* FacebookSDK.framework */,
+				DE8E51D1167709BC00946B27 /* OpenGLES.framework */,
 				DEF11BF41652B35800522F60 /* UIKit.framework */,
 				DEF11BF61652B35800522F60 /* Foundation.framework */,
 				DEF11BF81652B35800522F60 /* CoreGraphics.framework */,
@@ -86,9 +182,9 @@
 			children = (
 				DEF11C031652B35800522F60 /* SSTAppDelegate.h */,
 				DEF11C041652B35800522F60 /* SSTAppDelegate.m */,
-				DE449CEC167258ED001BDEFD /* Interfaces */,
-				DE449CEA167258C6001BDEFD /* Core */,
-				DE449CE616725685001BDEFD /* Storyboard */,
+				DE78838116776ADA0007A164 /* Interfaces */,
+				DE78839516776AF60007A164 /* Core */,
+				DE78839016776AE70007A164 /* Storyboard */,
 				DEF11BFB1652B35800522F60 /* Supporting Files */,
 			);
 			path = ShakeShakeTag;
@@ -164,9 +260,9 @@
 				DEF11C071652B35800522F60 /* Default.png in Resources */,
 				DEF11C091652B35800522F60 /* Default@2x.png in Resources */,
 				DEF11C0B1652B35800522F60 /* Default-568h@2x.png in Resources */,
-				DE449CE916725685001BDEFD /* Storyboard in Resources */,
-				DE449CEB167258C6001BDEFD /* Core in Resources */,
-				DE449CED167258ED001BDEFD /* Interfaces in Resources */,
+				DE8E51D9167714F600946B27 /* FacebookSDKResources.bundle in Resources */,
+				DE78839316776AE70007A164 /* Pad.storyboard in Resources */,
+				DE78839416776AE70007A164 /* Phone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +275,10 @@
 			files = (
 				DEF11C011652B35800522F60 /* main.m in Sources */,
 				DEF11C051652B35800522F60 /* SSTAppDelegate.m in Sources */,
+				DE78838C16776ADA0007A164 /* SSTLoginPadViewController.m in Sources */,
+				DE78838D16776ADA0007A164 /* SSTLoginPhoneViewController.m in Sources */,
+				DE78838E16776ADA0007A164 /* SSTShakePadViewController.m in Sources */,
+				DE78838F16776ADA0007A164 /* SSTShakePhoneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +351,15 @@
 		DEF11C0F1652B35800522F60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../FacebookSDK/build\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShakeShakeTag/ShakeShakeTag-Prefix.pch";
 				INFOPLIST_FILE = "ShakeShakeTag/ShakeShakeTag-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-lsqlite3.0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -263,10 +368,15 @@
 		DEF11C101652B35800522F60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../FacebookSDK/build\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShakeShakeTag/ShakeShakeTag-Prefix.pch";
 				INFOPLIST_FILE = "ShakeShakeTag/ShakeShakeTag-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-lsqlite3.0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

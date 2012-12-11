@@ -10,4 +10,6 @@
 
 @interface SSTLoginPadViewController : UIViewController
 
+- (IBAction)FBAuthButtonAction:(id)sender;
+
 @end
